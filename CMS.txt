@@ -1,0 +1,61 @@
+
+npm i -g @vue/cli
+
+vue create JDSVRCabineWeb
+vue create jd-svr-cabine-web
+
+vue add axios
+npm i -g axios
+npm i --save axios
+
+cd jd-svr-cabine-web
+
+vue ui
+npm audit fix
+npm run serve
+npm run serve --fix
+
+npm install
+npm run build
+vue-cli-service build
+
+
+https://www.vuemastery.com/courses/real-world-vue-js/vue-cli/
+https://www.youtube.com/watch?v=-cHCDAUDZvY
+https://www.youtube.com/watch?v=3xH9sSJbGCc
+https://www.youtube.com/watch?v=hqLIKxeCDw0
+https://www.youtube.com/watch?v=1mnMeuYnvdw
+
+
+
+
+----------------------------------
+----------------------------------
+
+NUXT JS
+
+npx create-nuxt-app <project-name>
+cd <project-name>
+npm run dev
+or
+npm run build
+npm rum start
+
+npm i @nuxtjs/moment
+npm i @nuxtjs/auth
+npm i lodash
+npm i --save lodash
+
+npm cache clean
+npm install --cache /tmp/empty-cache
+npm cache verify
+npm install --cache
+npm audit fix --force
+npm audit fix
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat
+
+ const path = `http://localhost:5000/books/${bookID}`;
+ 
+----------------------------------
+----------------------------------
