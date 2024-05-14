@@ -1,4 +1,27 @@
 
+
+
+----------------------------------
+
+npx nuxi@latest init cms-vue-nuxt-teste
+cd cms-vue-nuxt-teste
+yarn dev --open
+
+
+app.config.ts
+
+export default defineAppConfig({
+  title: 'Hello Nuxt',
+  theme: {
+    dark: true,
+    colors: {
+      primary: '#ff0000'
+    }
+  }
+})
+
+
+----------------------------------
 npm i -g @vue/cli
 
 vue create JDSVRCabineWeb
